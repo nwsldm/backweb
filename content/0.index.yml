@@ -1,150 +1,147 @@
-title: Ship Your [SaaS]{class="text-primary"} at light speed
-description: Build production-ready SaaS applications with Nuxt UI's powerful components, authentication flows, and enterprise features. The same component library trusted by the entire Nuxt ecosystem.
+title: Deploy Your Web Apps at [Light Speed]{class="text-primary"}
+description: Build, deploy, and scale your web applications with our modern platform. Git-powered deployments, global CDN, and automatic scaling.
 seo:
-  title: Nuxt SaaS Template
-  description: Create stunning, fast and production-ready SaaS applications with Nuxt UI. 100+ Vue components, authentication, dark mode, and enterprise features built on Tailwind CSS.
+  title: DeployHub - Modern Web Deployment Platform
+  description: Deploy any web app in seconds. Git-powered deployments, global CDN, automatic SSL, and infinite scaling. Focus on code, we handle the infrastructure.
 navigation: false
 hero:
   links:
-    - label: Get started
-      icon: i-lucide-arrow-right
+    - label: Start Deploying Free
+      icon: i-lucide-rocket
       trailing: true
-      to: https://ui.nuxt.com/docs/getting-started/installation/nuxt
-      target: _blank
+      to: /signup
       size: xl
-    - label: Use this template
-      icon: i-simple-icons-github
+    - label: View Documentation
+      icon: i-lucide-book
       size: xl
       color: neutral
       variant: subtle
-      to: https://github.com/nuxt-ui-templates/saas
-      target: _blank
+      to: /docs
 sections:
-  - title: Powered by Nuxt UI Components
-    description: Access the complete Nuxt UI component library with 100+ beautifully styled, accessible, and customizable Vue components. Everything you need to build professional SaaS applications.
+  - title: Deploy in Seconds
+    description: Connect your Git repository and every push automatically deploys. No servers to manage, no complex configurations. Just push code and we handle the rest.
     id: features
     orientation: horizontal
     features:
-      - name: 100+ UI Components
-        description: From buttons to modals, data tables to forms - all styled with Tailwind CSS and accessible out of the box.
-        icon: i-lucide-package
-      - name: Authentication Ready
-        description: Pre-built login, signup, and password reset flows. Just connect your backend and start onboarding users.
-        icon: i-lucide-shield
-      - name: TypeScript First
-        description: Full TypeScript support with auto-completion, type safety, and IntelliSense for every component and composable.
-        icon: i-lucide-code-2
-  - title: Built for Modern SaaS
-    description: Everything you need to launch and scale your SaaS. From beautiful marketing pages to complex dashboards, ship faster with production-ready patterns.
+      - name: Git-Powered Deployments
+        description: Push to Git and your app deploys automatically. Preview deployments for every pull request.
+        icon: i-lucide-git-branch
+      - name: Global CDN
+        description: Your apps deploy to 100+ edge locations worldwide. Lightning-fast load times for all users.
+        icon: i-lucide-globe
+      - name: Zero Configuration
+        description: Auto-detects your framework. Works with React, Vue, Svelte, Next.js, Nuxt, and more.
+        icon: i-lucide-settings
+  - title: Built for Production
+    description: Enterprise-grade infrastructure with automatic SSL, DDoS protection, and 99.99% uptime SLA. Scale from side project to millions of users.
     orientation: horizontal
     reverse: true
     features:
-      - name: Edge Performance
-        description: Optimized for Core Web Vitals with automatic code splitting, lazy loading, and SSR/SSG support.
-        icon: i-lucide-zap
-      - name: Dark Mode Ready
-        description: Automatic theme switching with smooth transitions. Respects system preferences and remembers user choice.
-        icon: i-lucide-moon
-      - name: Global Ready
-        description: Built-in i18n support for 50+ languages with RTL/LTR layouts and @nuxt/fonts integration.
-        icon: i-lucide-globe
+      - name: Automatic SSL
+        description: Free SSL certificates for all domains. Provisioned and renewed automatically.
+        icon: i-lucide-lock
+      - name: Instant Rollbacks
+        description: Deploy issues? Rollback to any previous version with one click.
+        icon: i-lucide-rotate-ccw
+      - name: Real-time Analytics
+        description: Monitor performance, bandwidth, and visitor metrics in real-time.
+        icon: i-lucide-bar-chart
 features:
   title: Everything You Need to Ship
-  description: Stop building from scratch. Focus on your unique features while Nuxt UI handles the foundations with battle-tested components and patterns.
+  description: From development to production, we provide the tools and infrastructure to deploy and scale your web applications.
   items:
-    - title: Beautiful Design System
-      description: Semantic color aliases, comprehensive design tokens, and Tailwind Variants for consistent, customizable styling.
-      icon: i-lucide-palette
-    - title: Accessible by Default
-      description: Built on Reka UI for robust accessibility. WCAG compliant components that work for everyone, everywhere.
-      icon: i-lucide-accessibility
-    - title: Developer Experience
-      description: Auto-imports, hot module replacement, and comprehensive documentation. Build faster with less friction.
-      icon: i-lucide-terminal
-    - title: SEO Optimized
-      description: Server-side rendering, automatic meta tags, sitemap generation, and Open Graph images out of the box.
-      icon: i-lucide-search
-    - title: Production Ready
-      description: Error handling, loading states, form validation, and security best practices built into every component.
-      icon: i-lucide-check-circle
-    - title: Infinitely Customizable
-      description: Override any style with the ui prop, customize globally with AppConfig, or use Tailwind classes directly.
-      icon: i-lucide-settings
+    - title: Preview Deployments
+      description: Every pull request gets a live preview URL. Share, test, and review before merging.
+      icon: i-lucide-eye
+    - title: Custom Domains
+      description: Connect unlimited custom domains with automatic SSL. Free subdomains for all projects.
+      icon: i-lucide-link
+    - title: Environment Variables
+      description: Securely manage environment variables per environment. Encrypted at rest and in transit.
+      icon: i-lucide-key
+    - title: Serverless Functions
+      description: Deploy serverless API functions alongside your frontend. Auto-scales to handle any load.
+      icon: i-lucide-server
+    - title: Edge Config
+      description: Store and access configuration data at the edge with millisecond latency globally.
+      icon: i-lucide-database
+    - title: Team Collaboration
+      description: Invite team members, manage permissions, and deploy together with role-based access.
+      icon: i-lucide-users
 testimonials:
   headline: Trusted by Developers
-  title: Join Thousands Building with Nuxt UI
-  description: See why developers choose Nuxt UI to ship their SaaS applications faster and with more confidence.
+  title: Join Thousands Building with DeployHub
+  description: See why developers choose DeployHub to ship their web applications faster and with more confidence.
   items:
-    - quote: Nuxt UI transformed how we build. The component quality is exceptional - everything just works with perfect TypeScript support, accessibility, and dark mode built in.
+    - quote: DeployHub cut our deployment time from 30 minutes to 30 seconds. Every push automatically deploys and we never worry about infrastructure.
       user:
-        name: Sarah Chen
+        name: Jennifer Lee
         description: CTO at TechScale Solutions
         avatar:
           src: https://i.pravatar.cc/120?img=1
-    - quote: We shipped our MVP in 2 weeks instead of 2 months. The authentication flows and form components saved us countless hours of development time.
+    - quote: The preview deployments for pull requests transformed our workflow. QA can test every change before it goes live.
       user:
-        name: Marcus Rodriguez
+        name: Michael Brown
         description: VP of Engineering at DataFlow
         avatar:
           src: https://i.pravatar.cc/120?img=7
-    - quote: The design system with AppConfig is brilliant. We maintain brand consistency across all our products while leveraging the full component library.
+    - quote: We scaled from hundreds to millions of requests without touching any infrastructure. The global CDN just works.
       user:
-        name: David Kumar
+        name: Robert Smith
         description: Security Director at SecureStack
         avatar:
           src: https://i.pravatar.cc/120?img=3
-    - quote: Perfect Lighthouse scores out of the box. Our Core Web Vitals improved dramatically just by switching to Nuxt UI components.
+    - quote: Perfect performance scores out of the box. Our Core Web Vitals improved dramatically after switching to DeployHub's edge network.
       user:
-        name: Emily Zhang
+        name: Jessica Wilson
         description: Lead Architect at ScaleForce
         avatar:
           src: https://i.pravatar.cc/120?img=5
-    - quote: The Tailwind Variants system makes customization so intuitive. We can override any component style while keeping the functionality intact.
+    - quote: The developer experience is unmatched. Git push, automatic deploy, instant rollbacks. It's everything we needed.
       user:
-        name: James Wilson
+        name: William Davis
         description: DevOps Lead at CloudPro
         avatar:
           src: https://i.pravatar.cc/120?img=8
-    - quote: From the SaaS template to production in days. The pre-built layouts, navigation, and content structure accelerated our launch.
+    - quote: From prototype to production in days. The free tier let us validate our idea, then we scaled seamlessly.
       user:
-        name: Lisa Patel
+        name: Amanda Taylor
         description: CEO at AutoScale
         avatar:
           src: https://i.pravatar.cc/120?img=9
-    - quote: Reka UI foundation means accessibility is never an afterthought. We achieved WCAG compliance without any custom work.
+    - quote: Serverless functions alongside our frontend simplified our architecture. One platform for everything.
       user:
-        name: Michael Torres
+        name: Christopher Martinez
         description: Frontend Lead at AccessFirst
         avatar:
           src: https://i.pravatar.cc/120?img=11
-    - quote: The documentation is outstanding. Every component has clear examples, and the community on Discord is incredibly helpful.
+    - quote: The analytics and monitoring are incredible. Real-time insights into performance and usage without any setup.
       user:
-        name: Rachel Kim
+        name: Ashley Anderson
         description: Performance Engineer at APIHub
         avatar:
           src: https://i.pravatar.cc/120?img=10
-    - quote: We replaced three different UI libraries with Nuxt UI. The consistency and quality across all components is unmatched.
+    - quote: We replaced three different services with DeployHub. Hosting, CDN, serverless functions - all in one place.
       user:
-        name: Thomas Weber
+        name: Daniel Thomas
         description: UI Architecture Lead at DesignScale
         avatar:
           src: https://i.pravatar.cc/120?img=12
-    - quote: The integration with Nuxt modules is seamless. Color mode, fonts, icons - everything works together perfectly.
+    - quote: The team collaboration features are perfect. Multiple projects, role-based access, and seamless workflow integration.
       user:
-        name: Sophia Martinez
+        name: Samantha Hernandez
         description: Integration Specialist at TechFlow
         avatar:
           src: https://i.pravatar.cc/120?img=14
 cta:
-  title: Ready to build an amazing SaaS?
-  description: Join thousands of developers building with Nuxt and Nuxt UI. Get this template and start shipping today.
+  title: Ready to Deploy Your Next Big Idea?
+  description: Join thousands of developers deploying with DeployHub. Start for free, scale as you grow.
   links:
-    - label: Start building
-      to: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt'
-      target: _blank
+    - label: Start Deploying Free
+      to: '/signup'
       trailingIcon: i-lucide-arrow-right
     - label: View on GitHub
-      to: 'https://github.com/nuxt-ui-templates/saas'
+      to: 'https://github.com/deployhub'
       target: _blank
       variant: subtle
       icon: i-simple-icons-github

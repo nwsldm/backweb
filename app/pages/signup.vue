@@ -7,8 +7,8 @@ definePageMeta({
 })
 
 useSeoMeta({
-  title: 'Sign up',
-  description: 'Create an account to get started'
+  title: 'Sign up - DeployHub',
+  description: 'Create an account to deploy your web applications'
 })
 
 const toast = useToast()
@@ -31,16 +31,16 @@ const fields = [{
 }]
 
 const providers = [{
-  label: 'Google',
-  icon: 'i-simple-icons-google',
-  onClick: () => {
-    toast.add({ title: 'Google', description: 'Login with Google' })
-  }
-}, {
   label: 'GitHub',
   icon: 'i-simple-icons-github',
   onClick: () => {
-    toast.add({ title: 'GitHub', description: 'Login with GitHub' })
+    toast.add({ title: 'GitHub', description: 'Sign up with GitHub' })
+  }
+}, {
+  label: 'GitLab',
+  icon: 'i-simple-icons-gitlab',
+  onClick: () => {
+    toast.add({ title: 'GitLab', description: 'Sign up with GitLab' })
   }
 }]
 
@@ -62,8 +62,9 @@ function onSubmit(payload: FormSubmitEvent<Schema>) {
     :fields="fields"
     :schema="schema"
     :providers="providers"
-    title="Create an account"
-    :submit="{ label: 'Create account' }"
+    title="Create your account"
+    icon="i-lucide-rocket"
+    :submit="{ label: 'Start Deploying' }"
     @submit="onSubmit"
   >
     <template #description>
@@ -77,7 +78,10 @@ function onSubmit(payload: FormSubmitEvent<Schema>) {
       By signing up, you agree to our <ULink
         to="/"
         class="text-primary font-medium"
-      >Terms of Service</ULink>.
+      >Terms of Service</ULink> and <ULink
+        to="/"
+        class="text-primary font-medium"
+      >Privacy Policy</ULink>.
     </template>
   </UAuthForm>
 </template>

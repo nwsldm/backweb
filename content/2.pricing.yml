@@ -1,82 +1,86 @@
-title: A plan for every need
-description: Our plans are designed to meet the requirements of both beginners and players. Get the right plan that suits you.
+title: A plan for every stage
+description: From hobby projects to enterprise applications. Start free and scale as you grow with transparent pricing.
 seo:
   title: Pricing
-  description: Choose the plan that's right for you.
+  description: Choose the plan that's right for you. Free tier available.
 navigation.icon: i-lucide-credit-card
 plans:
-  - title: Basic
-    description: A basic plan for individuals.
+  - title: Hobby
+    description: Perfect for personal projects and experiments.
     price:
-      month: $9.9
-      year: $99.9
+      month: $0
+      year: $0
     button:
-      label: Get Started
+      label: Start for Free
       color: neutral
       variant: subtle
     features:
-      - 1 GB Storage
-      - 1 Email Account
-      - 1 Domain
-      - 1 Website
-      - 1 Database
-      - 1 SSL Certificate
-      - 1 Support Ticket
-  - title: Standard
-    description: A standard plan for small teams.
+      - Unlimited Projects
+      - 100GB Bandwidth/month
+      - 1,000 Serverless Function Invocations/day
+      - Automatic SSL Certificates
+      - Preview Deployments
+      - Community Support
+      - 1 Team Member
+  - title: Pro
+    description: For professional developers and growing applications.
     price:
-      month: $19.9
-      year: $199.9
+      month: $20
+      year: $200
     highlight: true
     scale: true
     button:
-      label: Get Started
+      label: Start Pro Trial
     features:
-      - 10 GB Storage
-      - 10 Email Accounts
-      - 10 Domains
-      - 10 Websites
-      - 10 Databases
-      - 10 SSL Certificates
-      - 10 Support Tickets
-  - title: Premium
-    description: A premium plan for large teams.
+      - Everything in Hobby
+      - 1TB Bandwidth/month
+      - 100,000 Serverless Function Invocations/day
+      - Custom Domains (Unlimited)
+      - Edge Config
+      - Analytics & Monitoring
+      - Priority Support
+      - 5 Team Members
+      - Instant Rollbacks
+  - title: Team
+    description: For teams building production applications.
     price:
-      month: $29.9
-      year: $299.9
+      month: $40
+      year: $400
     button:
-      label: Get Started
+      label: Contact Sales
       color: neutral
       variant: subtle
     features:
-      - 100 GB Storage
-      - 100 Email Accounts
-      - 100 Domains
-      - 100 Websites
-      - 100 Databases
-      - 100 SSL Certificates
-      - 100 Support Tickets
+      - Everything in Pro
+      - 10TB Bandwidth/month
+      - 1M Serverless Function Invocations/day
+      - Advanced Analytics
+      - SSO & SAML
+      - Audit Logs
+      - 24/7 Priority Support
+      - Unlimited Team Members
+      - Custom SLA
 logos:
-  title: Trusted by the world's best
+  title: Trusted by developers at
   icons:
     - i-simple-icons-amazonaws
-    - i-simple-icons-heroku
-    - i-simple-icons-netlify
-    - i-simple-icons-vercel
+    - i-simple-icons-googlecloud
+    - i-simple-icons-microsoftazure
     - i-simple-icons-cloudflare
+    - i-simple-icons-stripe
 faq:
   title: Frequently asked questions
-  description: Culpa consectetur dolor pariatur commodo aliqua amet tempor nisi enim deserunt elit cillum.
+  description: Everything you need to know about DeployHub pricing and features.
   items:
-    - label: Is this a secure service?
-      content: Qui sunt nostrud aliquip reprehenderit enim proident veniam magna aliquip velit occaecat eiusmod nisi deserunt sunt.
-    - label: How can I cancel my subscription?
-      content: Consectetur irure Lorem nostrud adipisicing aliqua mollit Lorem sit officia magna eiusmod cupidatat.
-    - label: How does the free trial work?
-      content: Quis officia commodo magna eu qui aliquip duis.
-    - label: Can I switch plans later?
-      content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
-    - label: Do you offer refunds?
-      content: Duis mollit nostrud voluptate mollit Lorem dolore commodo veniam incididunt eiusmod.
-    - label: Do you offer support?
-      content: Aliqua sit nisi consequat pariatur Lorem minim irure qui.
+    - label: What's included in the free tier?
+      content: The Hobby plan includes unlimited projects, 100GB bandwidth per month, automatic SSL, preview deployments, and community support. Perfect for personal projects and learning.
+    - label: How is bandwidth calculated?
+      content: Bandwidth is calculated as the total data transferred from your deployed applications to end users. This includes HTML, CSS, JavaScript, images, and other assets.
+    - label: Can I upgrade or downgrade anytime?
+      content: Yes, you can change your plan at any time. Upgrades take effect immediately, and downgrades are prorated for the current billing period.
+    - label: Do you offer discounts for open source?
+      content: Yes! We offer free Pro plans for active open source projects. Apply through our open source program.
+    - label: What happens if I exceed my bandwidth?
+      content: We'll notify you when you're approaching your limit. You can purchase additional bandwidth or upgrade your plan. Overage rates are $0.10/GB.
+    - label: How do serverless function invocations work?
+      content: Each execution of your serverless function counts as one invocation. The counter resets daily. Unused invocations don't roll over to the next day.
